@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/1008049088324972657/1063214545688088757/best_wallpaper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-size: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 97vh;
+    padding-left: 50px;
+}
+
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50%;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 5em;
+    margin-bottom: 20px;
+    animation: fade-in 3s ease-in-out forwards;
+}
+
+p {
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    animation: fade-in 3s ease-in-out forwards;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: rgb(117, 33, 2);
+    cursor: pointer;
+    transition: all 1.0s ease;
+    animation: fade-in 3s ease-in-out forwards;
+}
+
+button:hover {
+    background-color: red;
+}
+
+span {
+    color: red;
+}
+
+.x {
+    color: orange;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateZ(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ();
+    }
+}
